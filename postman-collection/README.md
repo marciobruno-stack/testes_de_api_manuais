@@ -1,12 +1,17 @@
 # 📥 Postman Collection
 
-Nesta pasta, você deve adicionar o arquivo `.json` exportado diretamente do seu **Postman**.
+Nesta pasta está disponível a **Collection do Postman** contendo as requisições e testes elaborados para a validação da API **Restful-Booker**.
 
-Ter a Collection aqui mostra aos recrutadores que você sabe estruturar pastas, usar **variáveis de ambiente** (como `{{base_url}}` e `{{token}}`) e organizar os testes de forma padronizada!
+## 🚀 Como utilizar (Importação)
+Você pode importar este arquivo diretamente no seu Postman para reproduzir e analisar os testes executados neste projeto.
 
-### Passo a passo para subir sua Collection:
-1. Crie os testes lá no seu Postman (organizados numa Collection chamada *Restful-Booker API Tests*).
-2. Clique nos três pontinhos (`...`) ao lado do nome da Collection no Postman.
-3. Selecione **"Export"**.
-4. Escolha a versão "Collection v2.1" (Recomendado).
-5. Salve o arquivo `.json` gerado dentro desta pasta!
+1. Baixe o arquivo `Restful_Booker_API_Tests.postman_collection.json` que está aqui nesta pasta.
+2. Abra o seu Postman.
+3. Clique no botão **Import** (geralmente no canto superior esquerdo).
+4. Arraste o arquivo `.json` ou selecione-o através do explorador de arquivos.
+5. A coleção **Restful-Booker API Tests** aparecerá na sua barra lateral esquerda, pronta para execução!
+
+## 🧪 O que está incluso nesta Collection?
+- Requisições pré-configuradas (Headers, Body) para operações CRUD.
+- Demonstração de testes positivos (caminho feliz).
+- Demonstração de testes negativos focados em segurança (ex: tentativa de exclusão de reservas sem envio de token de autenticação, resultando em 403 Forbidden).
